@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang-"en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1 style="text-align: center;">Formulario de prueba</h1>
+    <form>
+        <input type="text">
+        <select name="operacion" id="operacion">
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicacion</option>
+            <option value="division">Division</option>
+        </select>
+        <input type="text">
+        <input type="submit" value="Submit">
+        <br><br><br><br>
+        <input type="text">
+        <input type="checkbox" id="operacion1" name="operacion1" value="Resultado">
+        <label for="operacion1">Suma</label>
+        <input type="checkbox" id="operacion2" name="operacion2" value="Resultado">
+        <label for="operacion2">Resta</label>
+        <input type="checkbox" id="operacion3" name="operacion3" value="Resultado">
+        <label for="operacion3">Multiplicacion</label>
+        <input type="checkbox" id="operacion4" name="operacion4" value="Resultado">
+        <label for="operacion4">Division</label>
+        <input type="text">
+        <input type="submit" value="Submit">
+        <br><br><br><br>
+        <input type="text">
+        <input type="checkbox" id="operacion1" name="radio" value="Resultado">
+        <label for="operacion1">Suma</label>
+        <input type="checkbox" id="operacion2"  name="radio" value="Resultado">
+        <label for="operacion2">Resta</label>
+        <input type="checkbox" id="operacion3"  name="radio" value="Resultado">
+        <label for="operacion3">Multiplicacion</label>
+        <input type="checkbox" id="operacion4"  name="radio" value="Resultado">
+        <label for="operacion4">Division</label>
+        <input type="text">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
