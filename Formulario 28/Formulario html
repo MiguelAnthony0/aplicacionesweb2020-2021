@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Formulario css.css">
+        <title>CV</title>
+    </head>
+    <body>
+    <div class="body">
+        <div class="contact_form">
+            <div class="formulario">
+                <h1 style="color: white;">Currículum vitae</h1>
+                <h3 style="color: white">Este formualrio de ayudara a crear un currículum vitae</h3>
+            </div>
+            <form actions="" method=""></form>
+            <p>
+                <label class="colocar_titulos" style="color: white;">¿Que titulos tienes?</label> 
+                <input type="text" required="obligatorio" placeholder="Escribe tus titulos" >
+            </p>
+            <p>
+                <label class="colocar_datos" style="color: white;">Coloca tus datos</label>
+                <p style="color: white;">En este apartado usted escribira su nombre completo, teléfono fijo o personal (el número es importante para que se te pueda encontrar) y una cuenta de correo electrónico unicamente para asuntos laborales.
+                   El correo: Una compuesta por tu nombre y apellido es mil veces más profesional que una que incluya tu apodo.</p>
+                <input type="text" required="obligatorio" placeholder="Escribe tus datos de contacto">
+            </p>
+            <p>
+                <label class="colocar_objetivos"style="color: white;">Objetivos</label>
+                <p style="color:white;">Aqui escribiras tus objetivos esto sirve si el reclutador de la empresa ve que tus objetivos y los suyos son parecidos para que te pueda coger ne la empresa.</p>
+                <input type="text" required="obligatorio" placeholder="Escribe tus objetivos">
+            </p>
+            <p>
+                <label class="colocar_experencia profesional" style="color: white">¿Que experencias profesionales tienes?</label> 
+                <p style="color: white;">Esto es simple, aqui escribes tus experencias profesionales.</p>
+                <input type="text" required="obligatorio" placeholder="Escribe tus experencias profesionales">
+            </p>
+            <p>
+                <label class="colocar_preparación académica" style="color: white;">¿Que preparación académica tienes?</label> 
+                <p style="color: white;">Aqui escribiras tus cursos aqui no hace falta que escribas que cursastes en primeria o secundaria si no los ultimos años de bachirerato, si tienes estudios universitarios truncos es importante que los menciones.</p>
+                <input type="text" required="obligatorio" placeholder="Escribe tus preparaciónes académica">
+            </p>
+            <p>
+                <label class="colocar_idiomas" style="color: white">¿Cuantos idiomas sabes?</label> 
+                <p style="color: white;">Aqui pondras tus conocimientos de idiomas por ejemplo: yo hablo portugues, ingles e español. Esto te dara más prestigio a la hora de ser selecionado.</p>
+                <input type="text" required="obligatorio" placeholder="Escribe los idiomas que sabes">
+            </p>
+            <p>
+                <label class="colocar_habilidades" style="color: white">¿Que habilidades tienes?</label> 
+                <p style="color: white;">Aqui tus habilidades los conocimientos que podras integrar a tu puesto por ej: tengo un dominio en la programacíon de paginas web</p>
+                <input type="text" required="obligatorio" placeholder="Escribe tus habilidades">
+            </p>
+            <button type="submit">Enviar datos</button>
+
+        </form>
+        </div>
+    </body> 
+        </html>
