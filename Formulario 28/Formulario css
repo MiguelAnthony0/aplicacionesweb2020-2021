@@ -1,0 +1,65 @@
+body {
+        background-image: url('https://www.computerworld.es/archivos/201905/architectural-design-architecture-building-443383.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+}
+
+.contact_form{
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgb(108,180,189);
+}
+input{
+    background-color:rgba(152,216,202,255);
+    height: 40px;
+    width: 408px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top:10px ;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+textarea {
+    background-color:rgba(152,216,202,255);
+    width: 405px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+
+}
+
+button{
+    width: 420px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    height: 50px;
+    border: 2px solid grey;
+    background-color: salmona;
+
+}
+textarea:hover{
+    background-color: salmon;
+}
+.formulario textarea:focus{
+
+    outline: 0;
+    border: 3px solid red;
+}
