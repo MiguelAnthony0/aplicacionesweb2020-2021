@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Layout.css">
+        <title>Layout</title>
+        <body>
+            <div class="Quintetos">
+            <h2 style="text-align: center;  color: white; background-color:rgba(14,14,14,255);">Plantel bulls 2021</h2>
+
+            <div class="Chicago">
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">Zach Lavine</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="300px" height="169px" src="https://www.hispanosnba.com/0image/620c/zach-lavine-bulls-870531.jpg" alt="Zach Lavine"> </a>
+                </div>
+            </article>
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">Lonzo Ball</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50" src="https://isport.ua/i/52/44/45/7/5244457/image_main/d4be9563499c1b21e94122cf63f588db-quality_70Xresize_1Xallow_enlarge_0Xw_835Xh_0.jpg" alt="Lonzo Ball"> </a>
+                </div>
+            </article>
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">Alex Caruso</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="300" height="169" src="https://www.nba.com/bulls/sites/bulls/files/caruso_swap_2_16x9.jpg" alt="Alex Caruso"> </a>
+                </div>
+            </article>
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">DeMar DeRozan</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50" src="https://chicagocrusader.com/wp-content/uploads/2021/08/derozan_swap_16x9_11.jpg" alt="DeMar DeRozan"> </a>
+                </div>
+            </article>
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">Nikola Vučević </a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="70px" height="70px" src="https://pbs.twimg.com/media/Exaoy1GXAAUn9kW.jpg" alt="Nikola Vučević"> 
+                    </a>
+                </div>
+           
+            </article>
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">Billy Donovan </a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50" src="https://pbs.twimg.com/profile_images/568926141918879744/KOQJz2Cp_400x400.jpeg" alt="Billy Donovan"> 
+                    </a>
+                </div>
+           
+            </article>
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">United Center</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50px" src="https://parkingaccess.com/blog/wp-content/uploads/2019/06/UnitedCenterSept_2011-600x401-100.jpg" alt="United Center"> 
+                    </a>
+                </div>
+           
+            </article>
+            <article class="Quinteto2021">
+                <a class="Bulls2021" href="#">Benny</a>
+
+                <div class="Bulls">
+                    <a href="#">
+                        <img width="50%" height="50" src="https://pbs.twimg.com/media/FDHSzDVXsAMSk3u?format=jpg&name=large" alt="Benny"> 
+                    </a>
+                </div>
+           
+            </article>
+        
+        </div>
+        <!-- end grid container-->
+
+    </div>
+    <div class="footer">
+        <p class="p1" style="text-align: center;">Los Chicago Bulls son un equipo profesional de baloncesto de los Estados Unidos con sede en Chicago, Illinois.</p>
+
+        </body>
+
+            
+        </html>
