@@ -1,0 +1,84 @@
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  background-image: url('https://www.nba.com/bulls/sites/bulls/files/benny-flag-1600x900.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+  img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+  .Chicago{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    grid-gap: 1em;
+  }
+  
+  
+  /* hover styles */
+  .Quinteto2021 {
+    position: relative;
+  }
+  
+  .Bulls {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .Bulls img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .Bulls2021 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .Quinteto2021:hover .Bulls2021{
+    opacity: 1;
+  }
+  
+  .Quinteto2021:hover .Bulls img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .Bulls2021 {
+      opacity: 1;
+    }
+    .Bulls img {
+      filter: blur(2px);
+    }
+  }
+  .footer {
+    color: white; background-color:rgba(14,14,14,255);
+     padding: 2px;
+     text-align: center;
+   }
