@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Parallax.css">
+        <title>Parallax</title>
+    </head>
+        <body>
+            <div class="bumblebee">
+                <div class="caption">
+                    <span class="border">Bumblebee</span>
+                </div>
+            </div>
+            <div style="color: #777; background-color:white;text-align:center; padding:50px 80px;text-align: justify;">
+                <h3 style="text-align: center;">Biografia Bumblebee</h3>
+                <p>Bumblebee es un personaje ficticio perteneciente al universo Transformers. 
+                    Es llamado el “pequeño hermano” de los Autobots, esforzándose constantemente para probar que está a la altura de los otros (especialmente de Optimus Prime), aunque esto signifique en ocasiones ponerse en peligro.<br>
+                    Su modo alternativo en las series animadas es un Volkswagen Beetle amarillo. Su tamaño pequeño le permite ir donde otros Autobots más grandes no pueden, es altamente económico en combustible, posee gran agudeza visual y particularmente adaptable a los ambientes submarinos.<br>
+                    En la saga de películas del director Michael Bay, su modo alternativo cambia por un Chevrolet Camaro de quinta generación, manteniendo su color amarillo.<br></p>
+             </div>
+             <div class="cybertron">
+                 <div class="caption">
+                     <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Cybertron</span>
+                 </div>
+             </div>
+             <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <p>Cybertron es un planeta ficticio de donde provienen los Transformers, en las diversas encarnaciones de ficción de los metaseries y línea de juguetes de Hasbro.<br> 
+                    Es bastante más pequeño que la tierra según aparece en la saga "countdown to extinction" de la serie animada G1, y consta de dos lunas, las cuales están constituidas por metales.<br> 
+                    En la serie japonesa, el planeta se conoce como "Cybertron" (que se muestra por primera vez en Japón Fuerza Galaxy embalaje, si bien "Cybertron" es el nombre japonés para "Autobot") pronunciado comoセイバートロンSeibātoron.<br> 
+                    Cybertron está poblado por formas de vida mecánicas de tamaño variable que puede transformarse en todo tipo de maquinaria. Estos se llaman Cybertronianos o Transformers. En Transformers: el lado oscuro de la luna es dos veces más grande que la Tierra.<br> 
+                    Durante la guerra cybertroniana, dichas lunas fueron los únicos refugios de los Autobots, con excepción de los que viajaron a la Tierra.</p>
+            </div>
+        </div>
+        <div class="autobots">
+            <div class="caption">
+                <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Autobots</span>
+            </div>
+        </div>
+        <div style="position: relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <p>Los Autobots son un equipo de formas de vida robóticas modulares autoconfigurables mecánicamente e inteligentes del planeta ficticio Cybertron liderados por Optimus Prime, y los principales protagonistas en el universo de los Transformers</p>
+            </div>
+        </div>
+        <div class="bumblebee2">
+            <div class="caption">
+                <span class="border">Transformers</span>
+            </div>
+        </div>
+        <h2 style="text-align:center">Autobots </h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://images.hdqwalls.com/wallpapers/optimus-prime-in-transformers.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://www.hdwallpapersfreedownload.com/uploads/large/super-heroes/hound-transformers-hd.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://i.pinimg.com/originals/6d/77/b3/6d77b3add6506728c9fe38ff926b7124.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://wallpapercave.com/wp/wp8209287.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://p4.wallpaperbetter.com/wallpaper/584/430/546/hot-rod-transformers-transformers-the-last-knight-wallpaper-preview.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://wallpaperaccess.com/full/1595482.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://images.hdqwalls.com/wallpapers/optimus-prime-in-transformers.jpg" style="width:100%" onclick="currentSlide(1)" alt="Optimus">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.hdwallpapersfreedownload.com/uploads/large/super-heroes/hound-transformers-hd.jpg" style="width:100%" onclick="currentSlide(2)" alt="Hound">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/originals/6d/77/b3/6d77b3add6506728c9fe38ff926b7124.jpg" style="width:100%" onclick="currentSlide(3)" alt="Drift">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://wallpapercave.com/wp/wp8209647.jpg" style="width:100%" onclick="currentSlide(4)" alt="Crosshairs">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://p4.wallpaperbetter.com/wallpaper/584/430/546/hot-rod-transformers-transformers-the-last-knight-wallpaper-preview.jpg" style="width:100%" onclick="currentSlide(5)" alt="Hot Rod">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://wallpaperaccess.com/full/1595482.jpg" style="width:100%" onclick="currentSlide(6)" alt="Bumblebee">
+    </div>
+  </div>
+</div>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+        </body>
+        </html>
